@@ -31,10 +31,9 @@
 ## 3. Module Breakdown & Estimated Timeline
 
 > **Assumptions:**
-> - Team size: **1 full-time developer (solo).**
+> - 1 person = ~6/7 hours of focused work.
 > - Backend APIs are either ready or developed in parallel.
 > - Estimate for both minimum/maximum requirements 
-> - 1 person-day = ~6/7 hours of focused work.
 
 | Module                              | Key Features                                                                                                                                                                                                       | Estimated Effort (Person-Days) |
 |:------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------|
