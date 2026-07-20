@@ -25,7 +25,6 @@
 | **Authentication** | **Keycloak**                                                            |
 | **Local Storage** | `shared_preferences` (light settings) + `hive` (cache)                  |
 | **Error Handling** | `Either` / `Result` pattern (using `dartz` or a custom sealed class)    |
-| **Environment Config** | `flutter_config` or `envied` (for keys, URLs, & CI/CD flavor handlings) |
 
 ---
 
