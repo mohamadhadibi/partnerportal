@@ -33,7 +33,7 @@
 > **Assumptions:**
 > - Team size: **1 full-time developer (solo).**
 > - Backend APIs are either ready or developed in parallel.
-> - Both minimal/high quality requirements estimated
+> - Estimate for both minimum/maximum requirements 
 > - 1 person-day = ~6/7 hours of focused work.
 
 | Module                              | Key Features                                                                                                                                                                                                       | Estimated Effort (Person-Days) |
