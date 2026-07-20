@@ -46,7 +46,7 @@
 | **7. Ticket System**                | Specialist: create ticket (subject, message, category), view own tickets with status. Manager: view all tickets from their clinic, update status/respond. both side can continue sending message on single ticket. | 3-5 days                       |
 | **8. Manager Connections**          | Search other specialists (by name, specialty, location, ext). Send connection requests. See list of current connections, submit actions remove/view public profile.                                                | 4-5 days                       |
 | **9. File Management**              | List of documents, add/remove/download/view using native file picker.                                                                                                                                              | 1-3 days                       |
-| **11. CI/CD & Deployment**          | CI/CD setup, build pipelines for iOS/Android, distribution (TestFlight, Play Store internal), environment switching.                                                                                               | 1-4 days                       |
+| **10. CI/CD & Deployment**          | CI/CD setup, build pipelines for iOS/Android, distribution (TestFlight, Play Store internal), environment switching.                                                                                               | 1-4 days                       |
 | **Total**                           |                                                                                                                                                                                                                    | **~28(min)  ~48(max) days**    |
 
 
