@@ -1,0 +1,53 @@
+- project setup
+
+3h: project initialize, add libraries, define packageing, base di handlings
+7h: handling network layer with http connection wrapper with dio, base error handling system by either-result pattern, base configs & secret handlings ,logger
+12h: main tree widget, base theme customization handling for all material widgets which use in app, light/dark base handling for future use, base multi language handling for future use, all assets and fonts implementation, font icon implementation, launcher icon implementation (platform specific)
+10h: base most usable customized widgets implementatiin (like inputs, buttons, texts, toolbars cards)
+4h: light secure storage handling for things like token and cached data
+3h: router handling with go_router, for deep links, dynamic links, all pages navigation, web support
+2h: external application intents, like call, mail, open browser handlings (platform specific)
+
+
+- auth
+4h: Keycloak r&d
+4h: auth domain and data layers for (login, logout, refresh token handling) , maybo other methods if needed or diffrent login type specfic handlings.
+4h: login pages (ui)
+5h: role-based navigation, session management, permissions and access logic handlings
+
+- profile
+4h: manager show/update his/her own profile
+10h: partner profile completation.
+7h: partner profile approval flow, manager view partner profile, submit actions (approve/reject with reason), partner profile status handling.
+7h: manager manage partners show list/create/update/remove partners.
+
+- file manager
+4h: pick upload files
+4h: manage list of partner files (show/list/add/remove)
+4h: some platform specific configs for file pick show (if needed)
+
+- dashboard:
+4h: handle dashboard by role, shortcuts and quick actions for manager. partner show profile status, blog list, quick action to submit ticket. manager, see newest partners, recent tickets, maybe list of blogs and some analytics data.
+
+- blog:
+4h: blog list widget (user in different application pages like dashboard , or blog special page if exist)
+4h: blog show page.(as there is now ui, it would be very simple, a header image, a title, the content and thats all)
+
+- ticket:
+4h: new ticket creation (partners)
+5h: list of tickets with searchable/filterable option for both partner and manager
+14h: ticket conversation (show ticket content, ability to answer it | non-realtime)
+3h: manager actions on a ticket
+
+- connections:
+4h: search other partners by name, location, specility, ext with state of already is connected or not with that user who search.
+3h: get list of connections (filterable / searchable)
+3h: get list of pending connection requests, send/received requests.
+4h: actions on connections or found partners (add connection, remove from connections, accept, reject connection requests)
+
+- ci/cd
+4h: depends on git env create ci/cd file for android/ios (eg; github actions for github) test ci for each platform, make sure sign version is correct
+7h: define platform specific configs for each platform (eg; android sign key, gradle needed setups, progaurd confg, ...)
+7h: initialize deployment configs for each platform store.
+
+1-3days: polishing, fix platform/device specific bugs
